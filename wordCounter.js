@@ -26,6 +26,7 @@ fs.createReadStream(options.wordsFile, {encoding: 'utf8'})
         });
     })
     .on('error', (e) => {
+        console.log(e);
         throw e;
     });
 
