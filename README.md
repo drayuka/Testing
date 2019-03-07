@@ -1,7 +1,7 @@
 # Problem Solution
 
-this is a small node.js repo that should solve the provided programming problem
-to use it, you need nodejs and npm installed.
+This is a small node.js repo that should solve the provided programming problem.
+To use it, you need nodejs and npm installed.
 
 ## Setup
 
