@@ -2,9 +2,10 @@
   "name": "testing",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "wordCounter.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node wordCounter.js"
   },
   "repository": {
     "type": "git",
@@ -17,7 +18,9 @@
   },
   "homepage": "https://github.com/drayuka/Testing#readme",
   "dependencies": {
-    "grunt": "^1.0.3",
-    "typescript": "^3.3.3333"
+    "command-line-args": "^5.0.2"
+  },
+  "engines": {
+    "node": ">=10.0.0"
   }
 }
